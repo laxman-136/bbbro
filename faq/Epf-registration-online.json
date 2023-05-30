@@ -1,0 +1,222 @@
+{
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+        {
+            "@type": "Question",
+            "name": "What is Provident Fund?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Provident Fund (PF) is a savings scheme in India primarily meant for employees. It is a government-mandated scheme where employees and employers contribute a portion of their salaries and wages, respectively, towards a fund managed by the Employees' Provident Fund Organisation (EPFO)."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "What are the types of PF?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The types of PF include Employee Provident Fund, Public Provident Fund (PPF), and Voluntary Provident Fund (VPF)."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "What is the interest allowed on PF contributions?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The interest allowed on PF contributions for the fiscal year 2022-2023 is 8.15% per annum."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Is the interest on PF taxable? How can 3G PF Registration Consultancy help you?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, the interest on PF is taxable at the applicable slab rate. Any interest earned on a contribution over and above INR 2.5 lakhs is taxable. 3G PF Registration Consultancy can provide assistance and guidance regarding PF registration and related services. For more information, contact 9059145190."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "How to do EPF registration online? How can 3G best PF Registration Consultancy help you?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "To do EPF registration online, you can seek assistance from 3G Consultant. They offer guidance and support throughout the registration process, making it hassle-free. Their services include online registration, help with understanding rules and regulations, and personalized assistance. For more information, contact PF Consultancy at 9059145190."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "What is a PF number?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "A PF number is an account number used by employees to check the status of their EPF and EPF account balance."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "How is it allotted?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The PF number should be divided equally between the employer and the employee."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "What are the benefits of PF?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The benefits of PF include good investment opportunities for individuals upon retirement. For more information, contact PF Consultancy at 9059145190."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "How to withdraw my PF amount?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "You can withdraw your PF amount either online or offline."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Can I withdraw for personal purposes?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "You can withdraw PF for personal purposes under certain circumstances, including medical purposes, marriage, and home loan repayment."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "What should I do when I change my job?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "When you change your job, you are not supposed to withdraw your PF. It gets automatically transferred from your existing employer to the new employer."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "How can an employee register for PF?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "To register for PF, an employee needs to complete the employer registration on the official website, receive an OTP pin on the registered email ID and mobile number, log in with the credentials, complete the details of the establishment, and obtain the EPF registration certificate. For more information, contact PF Consultancy at 9059145190."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "What is UAN?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "UAN (Universal Account Number) is a 12-digit unique number provided to each employee contributing to the employee provident fund."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "How to transfer EPF online? How can 3G PF Consultancy help you in a better way?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "To transfer EPF online, you can log in to your EPF account using your UAN and password, go to the 'One Member - One EPF Account (Transfer Request)' option in the 'Online Services' section, verify the information, provide the details of your previous employment, enter the OTP, and submit the transfer request. 3G PF Consultancy can provide better guidance and assistance throughout the transfer process. For more information, contact PF Consultancy at 9059145190."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "How to file EPF E-nomination online?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "To file EPF E-nomination online, you can visit the EPFO Member Portal and follow the instructions provided."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "How to link the EPF account with Aadhaar online?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "To link the EPF account with Aadhaar online, you can log in to the UMANG app using your MPIN or OTP, go to 'EPFO' in the 'All Services Tab', click on 'e-KYC services', select the Aadhaar seeding option, enter your UAN, get and enter the OTP, fill the required details, and complete the verification process. Once verified, your Aadhaar will be successfully linked."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "What are the benefits of the EPF scheme?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The benefits of the EPF scheme include tax-free savings, long-term investment growth, and insurance benefits."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "How much employee percentage is EPF deduction from salary?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The EPF deduction from an employee's salary is 12% of their basic salary."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "What is the transfer procedure? Best way to approach 3G PF Consultancy in Hyderabad.",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "To transfer your EPF, you need to log on to the Unified Portal with your UAN and password, click on 'One Member - One EPF Account' under Online Services, verify the information, provide the required details, enter the OTP, and submit the transfer request. For expert assistance and guidance, you can approach 3G PF Consultancy in Hyderabad. Contact them at 9059145190."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Who is eligible for EPF?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "To be eligible for EPF, you need to be an Indian citizen and at least 18 years of age."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Can we check the PF balance online?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, you can check your PF balance online by logging into the portal using your UAN and password."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Is there a mobile app for EPF?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, there is a mobile app called 'UMANG' for EPF. You can download it from the official website at https://web.umang.gov.in/landing/department/epfo.html."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "What is the minimum amount required to be deposited in a PPF account yearly?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The minimum amount required to be deposited in a PPF account yearly is Rs 500."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "What is the maximum amount required to be deposited in a PPF account yearly?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The maximum amount required to be deposited in a PPF account yearly is Rs 150,000."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "How many times can a person withdraw money from a PPF account?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "A person can withdraw money from a PPF account only once per financial year."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "How to claim employee provident fund?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "To claim employee provident fund, you need to apply for withdrawal benefit or scheme certificate through Form 10C."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "What is the role of 3G PF Consultancy in Hyderabad?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "3G PF Consultancy in Hyderabad provides expert guidance and assistance in various EPF-related services such as EPF transfer, withdrawal, UAN registration, Aadhaar linking, and more. They can help you navigate the process smoothly and ensure compliance with EPF rules and regulations. Contact them at 9059145190 for personalized assistance."
+            }
+        }
+    ]
+}

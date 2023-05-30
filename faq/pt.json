@@ -1,0 +1,87 @@
+{
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What is professional tax?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Professional tax is a direct tax that is deducted from your gross salary by your employer. It is levied by the state government and can vary depending on the state you live in."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Why is professional tax deducted?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Professional tax is deductible from taxable income, and it serves as a source of revenue for most Indian territories."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is professional tax paid monthly or yearly?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Professional tax is paid monthly."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What are the benefits of professional tax?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "- Imposes minimal restrictions\n- No delay in payment\n- Easy registration process\n- Supports welfare and development programs\n- Professional assistance available\n- Claim deductions"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is professional tax deduction mandatory?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, professional tax deduction is mandatory. However, not all Indian states levy professional tax."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How is professional tax calculated?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "- Consider your state's tax slab as some states do not levy professional tax.\n- Determine your income bracket within the tax slab.\n- Calculate the professional tax payable on a monthly or annual basis.\n\nCalculating professional tax is not very difficult as it depends mostly on the state and income."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can professional tax be refunded?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Professional tax is non-refundable."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How to register for professional tax?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "You can register for professional tax through the following methods:\n- Online mode: File the professional tax registration application online on the CTD portal and upload supporting documents.\n- Courier: File an application online/offline and send supporting documents to the office of the concerned registering authority through courier.\n- In person: Submit the application and supporting documents in person before the concerned registration authority."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Who should pay professional tax?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Employers, including corporates, partnership firms, sole proprietors, etc., who are engaged in trade or profession, should pay professional tax."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What happens if you don't pay professional tax?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "If you provide wrong information when applying for an enrollment certificate, you may incur a penalty three times the amount of your total tax obligation, as specified under section 5(6) of the Professional Tax Act. It is important to be thorough with the application process and ensure timely professional tax transactions."
+        }
+      }
+    ]
+  }
+  
