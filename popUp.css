@@ -383,3 +383,77 @@ body ::-webkit-scrollbar {
     margin-right: 17px;
     margin-left: 139px;
 }
+@media (min-width:1020px) {
+
+    /* Iframe */
+    #wrapper .contact_us_container .map_container iframe {
+        width: 118%;
+    }
+
+    /* Iframe */
+    #wrapper iframe {
+        min-height: 558px;
+    }
+
+}
+
+@media (min-width:375px) {
+
+    /* Input */
+    .contact_us_container .contact_us_form input[type=text] {
+        width: 339px;
+    }
+
+}
+
+@media (min-width:601px) {
+
+    /* Input */
+    #wrapper .contact_us_container .contact_us_form .contact_us_form .contact_us_name input[type=text] {
+        width: 409px;
+    }
+
+}
+
+@media (min-width:357px) {
+
+    /* Contact form */
+    #wrapper .contact_us_container>.contact_us_form {
+        padding-right: 6px;
+        width: 339px;
+        transform: translatex(0px) translatey(0px);
+    }
+
+    /* Input */
+    .contact_us_container .contact_us_form input[type=text] {
+        width: 285px !important;
+    }
+
+    /* Iframe */
+    #wrapper iframe {
+        width: 290px;
+        height: 319px;
+    }
+
+    /* Message */
+    #message {
+        width: 285px;
+    }
+
+    /* Input */
+    .contact_us_container .contact_us_form input {
+        width: 285px !important;
+    }
+
+    /* Heading */
+    .footer_navigation .email_submition h4 {
+        width: 86%;
+    }
+
+    /* Input */
+    .email_submition .ES input[type=text] {
+        width: 216px;
+    }
+
+
+}
