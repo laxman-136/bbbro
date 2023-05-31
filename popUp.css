@@ -326,7 +326,7 @@ body ::-webkit-scrollbar {
 
     /* Iframe */
     #wrapper .contact_us_container .map_container iframe {
-        width: 100% !important;
+        width: 100%;
     }
 
     /* Iframe */
