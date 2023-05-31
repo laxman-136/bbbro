@@ -53,7 +53,7 @@
 
 #info {
     font-size: 16px;
-    font-weight: 400 !important;
+    font-weight: 400;
 }
 
 @media (max-width:600px) {
@@ -73,7 +73,7 @@
 
     /* Info */
     #info {
-        font-size: 16px !important;
+        font-size: 16px;
     }
 
     /* Paragraph */
@@ -139,7 +139,7 @@ body ::-webkit-scrollbar {
 /* Iframe */
 #wrapper iframe {
     display: inline-block;
-    min-height: 592px;
+    min-height: 100px;
 }
 
 /* Input */
@@ -171,7 +171,7 @@ body ::-webkit-scrollbar {
 
 /* Message */
 #message {
-    width: 85% !important;
+    width: 85%;
     font-size: 16px;
     padding-top: 18px;
     padding-left: 20px;
@@ -180,17 +180,17 @@ body ::-webkit-scrollbar {
 
 /* Label */
 #wrapper .contact_us_container .contact_us_form .contact_us_message label {
-    width: 85% !important;
+    width: 85%;
 }
 
 /* Label */
 #wrapper .contact_us_container .contact_us_form .contact_us_phoneNumber label {
-    width: 85% !important;
+    width: 85%;
 }
 
 /* Label */
 #wrapper .contact_us_container .contact_us_form .contact_us_email label {
-    width: 85% !important;
+    width: 85%;
 }
 
 /* Contact phone number */
@@ -200,7 +200,7 @@ body ::-webkit-scrollbar {
 
 /* Contact phone number */
 #wrapper .contact_us_container .contact_us_form .contact_us_phoneNumber {
-    width: 90% !important;
+    width: 90%;
 }
 
 /* Contact email */
@@ -210,7 +210,7 @@ body ::-webkit-scrollbar {
 
 /* Contact email */
 #wrapper .contact_us_container .contact_us_form .contact_us_email {
-    width: 90% !important;
+    width: 90%;
 }
 
 /* Contact name */
@@ -220,7 +220,7 @@ body ::-webkit-scrollbar {
 
 /* Contact name */
 #wrapper .contact_us_container .contact_us_form .contact_us_name {
-    width: 94% !important;
+    width: 94%;
 }
 
 /* Input */
@@ -237,7 +237,7 @@ body ::-webkit-scrollbar {
 
 /* Heading */
 #wrapper .contact_us_container .contact_us_form h2 {
-    width: 85% !important;
+    width: 85%;
 }
 
 /* Paragraph */
@@ -247,19 +247,19 @@ body ::-webkit-scrollbar {
 
 /* Input */
 #wrapper .contact_us_container .contact_us_form input {
-    width: auto !important;
-    height: 40px !important;
+    width: auto;
+        height: 40px;
 }
 
 /* Input */
 #wrapper .contact_us_container .contact_us_form .contact_us_name input[type=text] {
-    width: 408px !important;
-    height: 88px !important;
+    width: 408px;
+        height: 88px;
 }
 
 /* Input */
 #wrapper .contact_us_container .contact_us_form input:nth-child(5) {
-    width: 418px !important;
+    width: 418px;
 }
 
 /* Input */
@@ -301,12 +301,12 @@ body ::-webkit-scrollbar {
 
     /* Input */
     #wrapper .contact_us_container .contact_us_form .contact_us_phoneNumber input[type=tel] {
-        width: 94% !important;
+        width: 94%;
     }
 
     /* Input */
     #wrapper .contact_us_container .contact_us_form .contact_us_email input[type=email] {
-        width: 94% !important;
+        width: 94%;
     }
 
 }
@@ -331,9 +331,55 @@ body ::-webkit-scrollbar {
 
     /* Iframe */
     #wrapper iframe {
-        min-height: 323px !important;
+        min-height: 323px;
         height: 323px;
         transform: translatex(-79px);
     }
 
+}
+@media (min-width:375px) {
+
+    @media (max-width:600px) {
+
+        /* Iframe */
+        #wrapper iframe {
+            height: 209px;
+            margin-bottom: 18px;
+        }
+
+        /* Iframe */
+        #wrapper .contact_us_container .map_container iframe {
+            width: 98%;
+        }
+
+        /* Contact form */
+        #wrapper .contact_us_container>.contact_us_form {
+            width: 378px;
+        }
+
+        /* Input */
+        #wrapper .contact_us_form input[type=text] {
+            width: 323px;
+        }
+
+        /* Message */
+        #message {
+            width: 340px;
+            height: 75px;
+        }
+
+        /* Input */
+        #wrapper .contact_us_container .contact_us_form .contact_us_form input {
+            width: 340px;
+        }
+
+    }
+
+}
+
+/* Map container */
+#wrapper .map_container {
+    width: 408px;
+    margin-right: 17px;
+    margin-left: 139px;
 }
