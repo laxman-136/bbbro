@@ -88,3 +88,252 @@
 body ::-webkit-scrollbar {
     display: none;
 }
+/* contact us page design */
+
+/* Contact container */
+@media (max-width: 1220px) {}
+
+#wrapper .contact_us_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: normal;
+    padding-top: 44px;
+    padding-bottom: 44px;
+    background-color: #e5e5e5;
+    transform: translatex(0px) translatey(0px);
+}
+
+/* Contact name */
+#wrapper .contact_us_form .contact_us_name {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+/* Contact email */
+#wrapper .contact_us_form .contact_us_email {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Contact phone number */
+#wrapper .contact_us_form .contact_us_phoneNumber {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Contact message */
+#wrapper .contact_us_form .contact_us_message {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Contact form */
+#wrapper .contact_us_container>.contact_us_form {
+    transform: translatex(0px) translatey(0px);
+    padding-left: 16px;
+    width: 502px;
+}
+
+/* Iframe */
+#wrapper iframe {
+    display: inline-block;
+    min-height: 592px;
+}
+
+/* Input */
+.contact_us_container .contact_us_form input[type=text] {
+    min-height: 49px;
+    font-size: 16px;
+    padding-left: 21px;
+}
+
+/* Input */
+.contact_us_container .contact_us_form input[type=email] {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-width: 0px;
+    min-height: 50px;
+}
+
+/* Input */
+.contact_us_container .contact_us_form input[type=tel] {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-width: 0px;
+    min-height: 50px;
+}
+
+/* Message */
+#message {
+    width: 85% !important;
+    font-size: 16px;
+    padding-top: 18px;
+    padding-left: 20px;
+    border-width: 0px;
+}
+
+/* Label */
+#wrapper .contact_us_container .contact_us_form .contact_us_message label {
+    width: 85% !important;
+}
+
+/* Label */
+#wrapper .contact_us_container .contact_us_form .contact_us_phoneNumber label {
+    width: 85% !important;
+}
+
+/* Label */
+#wrapper .contact_us_container .contact_us_form .contact_us_email label {
+    width: 85% !important;
+}
+
+/* Contact phone number */
+.contact_us_container .contact_us_form .contact_us_phoneNumber {
+    height: 97px;
+}
+
+/* Contact phone number */
+#wrapper .contact_us_container .contact_us_form .contact_us_phoneNumber {
+    width: 90% !important;
+}
+
+/* Contact email */
+.contact_us_container .contact_us_form .contact_us_email {
+    height: 98px;
+}
+
+/* Contact email */
+#wrapper .contact_us_container .contact_us_form .contact_us_email {
+    width: 90% !important;
+}
+
+/* Contact name */
+.contact_us_container .contact_us_form .contact_us_name {
+    height: 91px;
+}
+
+/* Contact name */
+#wrapper .contact_us_container .contact_us_form .contact_us_name {
+    width: 94% !important;
+}
+
+/* Input */
+#wrapper .contact_us_form input[type=text] {
+    border-style: solid;
+    border-width: 0px;
+}
+
+/* Heading */
+.contact_us_container .contact_us_form h2 {
+    font-size: 35px;
+    color: #e67e22;
+}
+
+/* Heading */
+#wrapper .contact_us_container .contact_us_form h2 {
+    width: 85% !important;
+}
+
+/* Paragraph */
+.contact_us_container .contact_us_form p {
+    margin-bottom: 12px;
+}
+
+/* Input */
+#wrapper .contact_us_container .contact_us_form input {
+    width: auto !important;
+    height: 40px !important;
+}
+
+/* Input */
+#wrapper .contact_us_container .contact_us_form .contact_us_name input[type=text] {
+    width: 408px !important;
+    height: 88px !important;
+}
+
+/* Input */
+#wrapper .contact_us_container .contact_us_form input:nth-child(5) {
+    width: 418px !important;
+}
+
+/* Input */
+#wrapper .contact_us_form input:nth-child(5) {
+    transform: translatex(0px) translatey(0px);
+    background-color: #e67e22;
+    border-width: 0px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+/* Contact message */
+.contact_us_container .contact_us_form .contact_us_message {
+    height: 149px;
+}
+
+/* Label */
+.contact_us_container .contact_us_name label {
+    font-weight: 600;
+}
+
+/* Label */
+.contact_us_container .contact_us_email label {
+    font-weight: 600;
+}
+
+/* Label */
+.contact_us_container .contact_us_form .contact_us_form .contact_us_phoneNumber label {
+    font-weight: 600;
+}
+
+/* Label */
+.contact_us_container .contact_us_message label {
+    font-weight: 600;
+}
+
+@media (min-width:600px) {
+
+    /* Input */
+    #wrapper .contact_us_container .contact_us_form .contact_us_phoneNumber input[type=tel] {
+        width: 94% !important;
+    }
+
+    /* Input */
+    #wrapper .contact_us_container .contact_us_form .contact_us_email input[type=email] {
+        width: 94% !important;
+    }
+
+}
+
+@media (max-width:989px) {
+
+    /* Contact container */
+    #wrapper .contact_us_container {
+        flex-direction: column;
+        align-items: center;
+        transform: translatex(0px) translatey(0px);
+    }
+
+}
+
+@media (min-width:601px) {
+
+    /* Iframe */
+    #wrapper .contact_us_container .map_container iframe {
+        width: 100% !important;
+    }
+
+    /* Iframe */
+    #wrapper iframe {
+        min-height: 323px !important;
+        height: 323px;
+        transform: translatex(-79px);
+    }
+
+}
