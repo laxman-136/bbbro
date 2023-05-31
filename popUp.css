@@ -386,7 +386,7 @@ body ::-webkit-scrollbar {
     margin-left: 139px;
 }
 
-@media (min-width:1020px) {
+@media (min-width:1500px) {
 
     /* Iframe */
     #wrapper .contact_us_container .map_container iframe {
