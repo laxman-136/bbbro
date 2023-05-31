@@ -1,11 +1,17 @@
-/* Pop */
-#popUpContainer {
-    display: none;
+#popUpContainer,
+.popUp {
+    display: none
+}
 
+#message,
+#wrapper .contact_us_container .contact_us_form .contact_us_email label,
+#wrapper .contact_us_container .contact_us_form .contact_us_message label,
+#wrapper .contact_us_container .contact_us_form .contact_us_phoneNumber label,
+#wrapper .contact_us_container .contact_us_form h2 {
+    width: 85%
 }
 
 .popUp {
-    display: none;
     position: fixed;
     top: 50%;
     left: 50%;
@@ -16,28 +22,25 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #ededed;
+    background-color: #ededed
 }
 
-/* Thank you */
 #thank_you {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center
 }
 
-/* Paragraph */
 #thank_you p {
     font-weight: 600;
-    font-size: 26px;
+    font-size: 26px
 }
 
 #thank_you p:nth-child(2) {
     font-weight: 600;
-    font-size: 16px;
+    font-size: 16px
 }
 
-/* Button */
 #thank_you button {
     width: 161px;
     height: 41px;
@@ -48,50 +51,38 @@
     font-weight: 500;
     text-transform: capitalize;
     margin-top: 10px;
-    cursor: pointer;
+    cursor: pointer
 }
 
 #info {
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 400
 }
 
 @media (max-width:600px) {
-
-    /* Pop */
     #popUpContainer .popUp {
         width: 426px;
         transform: translatex(-208px) translatey(-94px);
         min-height: 264px;
-        height: 264px;
+        height: 264px
     }
 
-    /* Paragraph */
     #thank_you p {
-        font-size: 12px;
+        font-size: 12px
     }
 
-    /* Info */
     #info {
-        font-size: 16px;
+        font-size: 16px
     }
 
-    /* Paragraph */
-    #thank_you p:nth-child(1) {
-        font-size: 22px;
-    }
-
+        #thank_you p:first-child {
+            font-size: 22px
+    
 }
-
-/* display website scroll */
 
 body ::-webkit-scrollbar {
-    display: none;
+    display: none
 }
-/* contact us page design */
-
-/* Contact container */
-@media (max-width: 1220px) {}
 
 #wrapper .contact_us_container {
     display: flex;
@@ -101,359 +92,229 @@ body ::-webkit-scrollbar {
     padding-top: 44px;
     padding-bottom: 44px;
     background-color: #e5e5e5;
-    transform: translatex(0px) translatey(0px);
+    transform: translatex(0) translatey(0)
 }
 
-/* Contact name */
 #wrapper .contact_us_form .contact_us_name {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: flex-start
 }
 
-/* Contact email */
-#wrapper .contact_us_form .contact_us_email {
-    display: flex;
-    flex-direction: column;
-}
-
-/* Contact phone number */
+#wrapper .contact_us_form .contact_us_email,
+#wrapper .contact_us_form .contact_us_message,
 #wrapper .contact_us_form .contact_us_phoneNumber {
     display: flex;
-    flex-direction: column;
+    flex-direction: column
 }
 
-/* Contact message */
-#wrapper .contact_us_form .contact_us_message {
-    display: flex;
-    flex-direction: column;
-}
-
-/* Contact form */
 #wrapper .contact_us_container>.contact_us_form {
-    transform: translatex(0px) translatey(0px);
+    transform: translatex(0) translatey(0);
     padding-left: 16px;
-    width: 502px;
+    width: 502px
 }
 
-/* Iframe */
 #wrapper iframe {
     display: inline-block;
-    min-height: 100px;
+    min-height: 100px
 }
 
-/* Input */
 .contact_us_container .contact_us_form input[type=text] {
     min-height: 49px;
     font-size: 16px;
-    padding-left: 21px;
+    padding-left: 21px
 }
 
-/* Input */
-.contact_us_container .contact_us_form input[type=email] {
-    border-top-left-radius: 0px;
-    border-top-right-radius: 0px;
-    border-bottom-left-radius: 0px;
-    border-bottom-right-radius: 0px;
-    border-width: 0px;
-    min-height: 50px;
-}
-
-/* Input */
+.contact_us_container .contact_us_form input[type=email],
 .contact_us_container .contact_us_form input[type=tel] {
-    border-top-left-radius: 0px;
-    border-top-right-radius: 0px;
-    border-bottom-left-radius: 0px;
-    border-bottom-right-radius: 0px;
-    border-width: 0px;
-    min-height: 50px;
+    border-radius: 0;
+        border-width: 0;
+        min-height: 50px
 }
 
-/* Message */
 #message {
-    width: 85%;
     font-size: 16px;
     padding-top: 18px;
     padding-left: 20px;
-    border-width: 0px;
+    border-width: 0
 }
 
-/* Label */
-#wrapper .contact_us_container .contact_us_form .contact_us_message label {
-    width: 85%;
-}
-
-/* Label */
-#wrapper .contact_us_container .contact_us_form .contact_us_phoneNumber label {
-    width: 85%;
-}
-
-/* Label */
-#wrapper .contact_us_container .contact_us_form .contact_us_email label {
-    width: 85%;
-}
-
-/* Contact phone number */
 .contact_us_container .contact_us_form .contact_us_phoneNumber {
-    height: 97px;
+    height: 97px
 }
 
-/* Contact phone number */
+#wrapper .contact_us_container .contact_us_form .contact_us_email,
 #wrapper .contact_us_container .contact_us_form .contact_us_phoneNumber {
-    width: 90%;
+    width: 90%
 }
 
-/* Contact email */
 .contact_us_container .contact_us_form .contact_us_email {
-    height: 98px;
+    height: 98px
 }
 
-/* Contact email */
-#wrapper .contact_us_container .contact_us_form .contact_us_email {
-    width: 90%;
-}
-
-/* Contact name */
 .contact_us_container .contact_us_form .contact_us_name {
-    height: 91px;
+    height: 91px
 }
 
-/* Contact name */
 #wrapper .contact_us_container .contact_us_form .contact_us_name {
-    width: 94%;
+    width: 94%
 }
 
-/* Input */
 #wrapper .contact_us_form input[type=text] {
     border-style: solid;
-    border-width: 0px;
+    border-width: 0
 }
 
-/* Heading */
 .contact_us_container .contact_us_form h2 {
     font-size: 35px;
-    color: #e67e22;
+    color: #e67e22
 }
 
-/* Heading */
-#wrapper .contact_us_container .contact_us_form h2 {
-    width: 85%;
-}
-
-/* Paragraph */
 .contact_us_container .contact_us_form p {
-    margin-bottom: 12px;
+    margin-bottom: 12px
 }
 
-/* Input */
 #wrapper .contact_us_container .contact_us_form input {
     width: auto;
-        height: 40px;
+    height: 40px
 }
 
-/* Input */
 #wrapper .contact_us_container .contact_us_form .contact_us_name input[type=text] {
     width: 408px;
-        height: 88px;
+    height: 88px
 }
 
-/* Input */
 #wrapper .contact_us_container .contact_us_form input:nth-child(5) {
-    width: 418px;
+    width: 418px
 }
 
-/* Input */
 #wrapper .contact_us_form input:nth-child(5) {
-    transform: translatex(0px) translatey(0px);
+    transform: translatex(0) translatey(0);
     background-color: #e67e22;
-    border-width: 0px;
+    border-width: 0;
     font-size: 16px;
     font-weight: 600;
-    color: #ffffff;
+    color: #fff
 }
 
-/* Contact message */
 .contact_us_container .contact_us_form .contact_us_message {
-    height: 149px;
+    height: 149px
 }
 
-/* Label */
+.contact_us_container .contact_us_email label,
+.contact_us_container .contact_us_form .contact_us_form .contact_us_phoneNumber label,
+.contact_us_container .contact_us_message label,
 .contact_us_container .contact_us_name label {
-    font-weight: 600;
-}
-
-/* Label */
-.contact_us_container .contact_us_email label {
-    font-weight: 600;
-}
-
-/* Label */
-.contact_us_container .contact_us_form .contact_us_form .contact_us_phoneNumber label {
-    font-weight: 600;
-}
-
-/* Label */
-.contact_us_container .contact_us_message label {
-    font-weight: 600;
+    font-weight: 600
 }
 
 @media (min-width:600px) {
 
-    /* Input */
+    #wrapper .contact_us_container .contact_us_form .contact_us_email input[type=email],
     #wrapper .contact_us_container .contact_us_form .contact_us_phoneNumber input[type=tel] {
-        width: 94%;
-    }
-
-    /* Input */
-    #wrapper .contact_us_container .contact_us_form .contact_us_email input[type=email] {
-        width: 94%;
-    }
-
+        width: 94%
+    
 }
 
 @media (max-width:989px) {
-
-    /* Contact container */
     #wrapper .contact_us_container {
         flex-direction: column;
         align-items: center;
-        transform: translatex(0px) translatey(0px);
-    }
-
+        transform: translatex(0) translatey(0)
+    
 }
 
 @media (min-width:601px) {
-
-    /* Iframe */
     #wrapper .contact_us_container .map_container iframe {
-        width: 100%;
+        width: 100%
     }
 
-    /* Iframe */
     #wrapper iframe {
         min-height: 323px;
         height: 323px;
-        transform: translatex(-79px);
+        transform: translatex(-79px)
     }
 
+        #wrapper .contact_us_container .contact_us_form .contact_us_form .contact_us_name input[type=text] {
+            width: 409px
+    
 }
 @media (min-width:375px) {
-
     @media (max-width:600px) {
 
-        /* Iframe */
+        #message,
+            #wrapper .contact_us_container .contact_us_form .contact_us_form input {
+                width: 340px
+            }
         #wrapper iframe {
             height: 209px;
-            margin-bottom: 18px;
+            margin-bottom: 18px
         }
 
-        /* Iframe */
         #wrapper .contact_us_container .map_container iframe {
-            width: 98%;
+            width: 98%
         }
 
-        /* Contact form */
         #wrapper .contact_us_container>.contact_us_form {
-            width: 378px;
+            width: 378px
         }
 
-        /* Input */
         #wrapper .contact_us_form input[type=text] {
-            width: 323px;
+            width: 323px
         }
 
-        /* Message */
         #message {
-            width: 340px;
-            height: 75px;
+            height: 75px
+        
         }
 
-        /* Input */
-        #wrapper .contact_us_container .contact_us_form .contact_us_form input {
-            width: 340px;
-        }
-
-    }
-
+        .contact_us_container .contact_us_form input[type=text] {
+            width: 339px
+    
 }
 
-/* Map container */
 #wrapper .map_container {
     width: 408px;
     margin-right: 17px;
-    margin-left: 139px;
+    margin-left: 139px
 }
+
 @media (min-width:1020px) {
-
-    /* Iframe */
     #wrapper .contact_us_container .map_container iframe {
-        width: 118%;
+        width: 118%
     }
 
-    /* Iframe */
     #wrapper iframe {
-        min-height: 558px;
-    }
-
-}
-
-@media (min-width:375px) {
-
-    /* Input */
-    .contact_us_container .contact_us_form input[type=text] {
-        width: 339px;
-    }
-
-}
-
-@media (min-width:601px) {
-
-    /* Input */
-    #wrapper .contact_us_container .contact_us_form .contact_us_form .contact_us_name input[type=text] {
-        width: 409px;
-    }
-
+        min-height: 558px
+    
 }
 
 @media (min-width:357px) {
-
-    /* Contact form */
     #wrapper .contact_us_container>.contact_us_form {
         padding-right: 6px;
         width: 339px;
-        transform: translatex(0px) translatey(0px);
+        transform: translatex(0) translatey(0)
     }
 
-    /* Input */
+        .contact_us_container .contact_us_form input,
     .contact_us_container .contact_us_form input[type=text] {
-        width: 285px !important;
+        width: 285px !important
     }
 
-    /* Iframe */
     #wrapper iframe {
         width: 290px;
-        height: 319px;
+        height: 319px
     }
 
-    /* Message */
     #message {
-        width: 285px;
+        width: 285px
     }
 
-    /* Input */
-    .contact_us_container .contact_us_form input {
-        width: 285px !important;
-    }
-
-    /* Heading */
     .footer_navigation .email_submition h4 {
-        width: 86%;
+        width: 86%
     }
 
-    /* Input */
     .email_submition .ES input[type=text] {
-        width: 216px;
-    }
-
-
+        width: 216px
+    
 }
