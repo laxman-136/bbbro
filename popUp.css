@@ -460,3 +460,34 @@ body ::-webkit-scrollbar {
 
 
 }
+@media (min-width:992px) {
+
+    /* Iframe */
+    #wrapper .contact_us_container .map_container iframe {
+        width: 127% !important;
+    }
+
+    /* Iframe */
+    #wrapper iframe {
+        min-height: 593px;
+    }
+
+}
+
+@media (min-width:601px) {
+
+    /* Iframe */
+    #wrapper iframe {
+        margin-left: 63px;
+    }
+
+}
+
+@media (min-width:992px) {
+
+    /* Heading */
+    .footer_navigation .email_submition h4 {
+        width: 329px;
+    }
+
+}
