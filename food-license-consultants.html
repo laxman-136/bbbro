@@ -1,657 +1,589 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Google tag (gtag.js) -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=G-E093GFER9X"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
 
-      gtag("config", "G-E093GFER9X");
-    </script>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Food Licience Consultant - 3g consultant</title>
-    <meta
-      name="description"
-      content="Obtain your food license with ease. Dial 919059145190 and partner with 3G Consultant, leading food license consultants for seamless application process and regulatory support."
-    />
-
-    <!-- <link rel="stylesheet" href="website1920.css"> -->
-    <link rel="stylesheet" href="mobileRespnce.css" />
-    <link rel="stylesheet" href="mobileRespncemin.css" />
-    <link rel="stylesheet" href="navcss.css" />
-    <link rel="stylesheet" href="popUp.css" />
-    <script src="faq/pt.json" type="application/ld+json"></script>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.4/lottie.min.js"></script>
-    <style>
-      .faq h3 {
-        margin-top: 20px;
-        margin-bottom: 2;
-      }
-    </style>
-  </head>
-
-  <body>
-    <div class="wrapper" id="wrapper">
-      <section class="navbar">
-        <div class="nav">
-          <div class="logo">
-            <h1>3G CONSULTANT</h1>
-          </div>
-          <div class="navlinks">
-            <ol class="navlink" id="submenu">
-              <li><a href="index.html">labour law consultants</a></li>
-              <li>
-                <a href="esic-registration-online.html"
-                  >esic registration online</a
-                >
-              </li>
-              <li>
-                <a href="msme-udyam-registration.html"
-                  >msme udyam registration</a
-                >
-              </li>
-              <li>
-                <a href="shop-act-registration.html">Firm registration</a>
-              </li>
-              <li>
-                <a href="contract-labour-registration.html"
-                  >contract labour registration</a
-                >
-              </li>
-              <li><a href="#">food license consultants</a></li>
-              <li>
-                <a href="online-trade-licence.html">online trade licence</a>
-              </li>
-              <li><a href="professional-tax.html">professional tax</a></li>
-              <li>
-                <a href="epf-registration-online.html"
-                  >epf registration online</a
-                >
-              </li>
-            </ol>
-          </div>
-          <div id="submenu" class="menubar" onclick="toogleMenu()">
-            <img class="menuro" src="icons-pack/mnu-01.svg" alt="" />
-          </div>
-          <script>
-            let navlist = document.getElementById("submenu");
-            function toogleMenu() {
-              navlist.classList.toggle("open-menu");
+    <head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-E093GFER9X"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
             }
-          </script>
-        </div>
-      </section>
-      <div class="helpline_number">
-        <h3>
-          contact to the helpline number
-          <a href="tel:+919059145190">+91 90591 45190</a>
-        </h3>
-      </div>
-      <section class="hero">
-        <div class="hero_container">
-          <div class="hero_text_container">
-            <div class="text">
-              <h1 class="hero_text_h1">Food Licience Consultant</h1>
-              <ol class="bullet_points">
-                <li>
-                  <img src="icons-pack/correct-01.webp" alt="" srcset="" />
-                  <div class="point">Expert <b>A</b>dvice</div>
-                </li>
-                <li>
-                  <img src="icons-pack/correct-01.webp" alt="" srcset="" />
-                  <div class="point">Convenient <b>S</b>upport</div>
-                </li>
-                <li>
-                  <img src="icons-pack/correct-01.webp" alt="" srcset="" />
-                  <div class="point">Affordable <b>S</b>olutions</div>
-                </li>
-                <li>
-                  <img src="icons-pack/correct-01.webp" alt="" srcset="" />
-                  <div class="point">Streamlined <b>R</b>egistration</div>
-                </li>
-              </ol>
-              <div class="google-trust">
-                <img
-                  src="icons-pack/google-web-b2b.webp"
-                  alt="google trusted"
-                />
-                <img
-                  src="icons-pack/trustpilot-web-b2b.webp"
-                  alt="google trusted"
-                />
-              </div>
-            </div>
-          </div>
-          <div class="hero_form_container">
-            <div class="hero_form">
-              <h4>
-                Submit the form <br />
-                for get consult
-              </h4>
-              <form name="form1" id="contact-form" method="post">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required />
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required />
-                <label for="phone">Phone:</label>
-                <input type="tel" id="phone" name="phone" required />
-                <label for="service">Service:</label>
-                <select
-                  id="registrationDropdown"
-                  name="service"
-                  onchange="showInput(this)"
-                >
-                  <option value="">Select a registration type</option>
-                  <option value="other">Other</option>
-                  <option value="firm Registration">Firm Registration</option>
-                  <option value="esic Registration">ESIC Registration</option>
-                  <option value="pf Registration">PF Registration</option>
-                  <option value="trade License">
-                    Trade License Registration
-                  </option>
-                  <option value="contract Labor License">
-                    Contract Labor License
-                  </option>
-                  <option value="food License">Food License</option>
-                  <option value="msme Udyam Registration">
-                    MSME Udyam Registration
-                  </option>
-                  <option value="professional Tax">Professional Tax</option>
-                  <option value="labor Law Registration">
-                    Labor Law Registration
-                  </option>
-                </select>
-                <div id="otherServiceContainer" style="display: none">
-                  <label for="other-service">What service do you want?</label>
-                  <input
-                    type="text"
-                    id="ot-service"
-                    name="service_n"
-                    required
-                  />
+            gtag("js", new Date());
+
+            gtag("config", "G-E093GFER9X");
+        </script>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Food Licience Consultant - 3g consultant</title>
+        <meta name="description"
+            content="Obtain your food license with ease. Dial 919059145190 and partner with 3G Consultant, leading food license consultants for seamless application process and regulatory support." />
+
+        <!-- <link rel="stylesheet" href="website1920.css"> -->
+        <link rel="stylesheet" href="mobileRespnce.css" />
+        <link rel="stylesheet" href="mobileRespncemin.css" />
+        <link rel="stylesheet" href="navcss.css" />
+        <link rel="stylesheet" href="popUp.css" />
+        <script src="faq/pt.json" type="application/ld+json"></script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.4/lottie.min.js"></script>
+        <style>
+            .faq h3 {
+                margin-top: 20px;
+                margin-bottom: 2;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="wrapper" id="wrapper">
+            <section class="navbar">
+                <div class="nav">
+                    <div class="logo">
+                        <h1>3G CONSULTANT</h1>
+                    </div>
+                    <div class="navlinks">
+                        <ol class="navlink" id="submenu">
+                            <li><a href="index.html">labour law consultants</a></li>
+                            <li>
+                                <a href="esic-registration-online.html">esic registration online</a>
+                            </li>
+                            <li>
+                                <a href="msme-udyam-registration.html">msme udyam registration</a>
+                            </li>
+                            <li>
+                                <a href="shop-act-registration.html">Firm registration</a>
+                            </li>
+                            <li>
+                                <a href="contract-labour-registration.html">contract labour registration</a>
+                            </li>
+                            <li><a href="#">food license consultants</a></li>
+                            <li>
+                                <a href="online-trade-licence.html">online trade licence</a>
+                            </li>
+                            <li><a href="professional-tax.html">professional tax</a></li>
+                            <li>
+                                <a href="epf-registration-online.html">epf registration online</a>
+                            </li>
+                        </ol>
+                    </div>
+                    <div id="submenu" class="menubar" onclick="toogleMenu()">
+                        <img class="menuro" src="icons-pack/mnu-01.svg" alt="" />
+                    </div>
+                    <script>
+                        let navlist = document.getElementById("submenu");
+                        function toogleMenu() {
+                            navlist.classList.toggle("open-menu");
+                        }
+                    </script>
                 </div>
-                <input class="btn" type="submit" value="Submit" id="submit" />
-              </form>
+            </section>
+            <div class="helpline_number">
+                <h3>
+                    contact to the helpline number
+                    <a href="tel:+919059145190">+91 90591 45190</a>
+                </h3>
             </div>
-          </div>
-        </div>
-      </section>
-      <div class="layout">
-        <section class="faq">
-          <h1 style="text-align: center; font-size: 60px">FAQ's</h1>
+            <section class="hero">
+                <div class="hero_container">
+                    <div class="hero_text_container">
+                        <div class="text">
+                            <h1 class="hero_text_h1">Food Licience Consultant</h1>
+                            <ol class="bullet_points">
+                                <li>
+                                    <img src="icons-pack/correct-01.webp" alt="" srcset="" />
+                                    <div class="point">Expert <b>A</b>dvice</div>
+                                </li>
+                                <li>
+                                    <img src="icons-pack/correct-01.webp" alt="" srcset="" />
+                                    <div class="point">Convenient <b>S</b>upport</div>
+                                </li>
+                                <li>
+                                    <img src="icons-pack/correct-01.webp" alt="" srcset="" />
+                                    <div class="point">Affordable <b>S</b>olutions</div>
+                                </li>
+                                <li>
+                                    <img src="icons-pack/correct-01.webp" alt="" srcset="" />
+                                    <div class="point">Streamlined <b>R</b>egistration</div>
+                                </li>
+                            </ol>
+                            <div class="google-trust">
+                                <img src="icons-pack/google-web-b2b.webp" alt="google trusted" />
+                                <img src="icons-pack/trustpilot-web-b2b.webp" alt="google trusted" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hero_form_container">
+                        <div class="hero_form">
+                            <h4>
+                                Submit the form <br />
+                                for get consult
+                            </h4>
+                            <form name="form1" id="contact-form" method="post">
+                                <label for="name">Name:</label>
+                                <input type="text" id="name" name="name" required />
+                                <label for="email">Email:</label>
+                                <input type="email" id="email" name="email" required />
+                                <label for="phone">Phone:</label>
+                                <input type="tel" id="phone" name="phone" required />
+                                <label for="service">Service:</label>
+                                <select id="registrationDropdown" name="service" onchange="showInput(this)">
+                                    <option value="">Select a registration type</option>
+                                    <option value="other">Other</option>
+                                    <option value="firm Registration">Firm Registration</option>
+                                    <option value="esic Registration">ESIC Registration</option>
+                                    <option value="pf Registration">PF Registration</option>
+                                    <option value="trade License">
+                                        Trade License Registration
+                                    </option>
+                                    <option value="contract Labor License">
+                                        Contract Labor License
+                                    </option>
+                                    <option value="food License">Food License</option>
+                                    <option value="msme Udyam Registration">
+                                        MSME Udyam Registration
+                                    </option>
+                                    <option value="professional Tax">Professional Tax</option>
+                                    <option value="labor Law Registration">
+                                        Labor Law Registration
+                                    </option>
+                                </select>
+                                <div id="otherServiceContainer" style="display: none">
+                                    <label for="other-service">What service do you want?</label>
+                                    <input type="text" id="ot-service" name="service_n" required />
+                                </div>
+                                <input class="btn" type="submit" value="Submit" id="submit" />
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="layout">
+                <section class="faq">
+                    <h1 style="text-align: center; font-size: 60px">FAQ's</h1>
 
-          <!-- 1. What is a food licence? -->
-          <h3>What is a food licence?</h3>
-          <p>
-            Food licence or FSSAI licence is granted to all manufacturers,
-            traders, restaurants carrying out any food business which may
-            involve manufacturing or processing.
-          </p>
+                    <!-- 1. What is a food licence? -->
+                    <h3>What is a food licence?</h3>
+                    <p>
+                        Food licence or FSSAI licence is granted to all manufacturers,
+                        traders, restaurants carrying out any food business which may
+                        involve manufacturing or processing.
+                    </p>
 
-          <!-- 2. Kind of Business who needs FSSAI/FOOD License? -->
-          <h3>Kind of Business who needs FSSAI/FOOD License?</h3>
-          <p>
-            The persons involved in the food business, such as manufacturing,
-            transportation, distribution and storage of food articles/products
-            are also mandatorily required to have a FSSAI registration to carry
-            on their food business.
-          </p>
+                    <!-- 2. Kind of Business who needs FSSAI/FOOD License? -->
+                    <h3>Kind of Business who needs FSSAI/FOOD License?</h3>
+                    <p>
+                        The persons involved in the food business, such as manufacturing,
+                        transportation, distribution and storage of food articles/products
+                        are also mandatorily required to have a FSSAI registration to carry
+                        on their food business.
+                    </p>
 
-          <!-- 3. Why food licence is necessary? -->
-          <h3>Why food licence is necessary?</h3>
-          <p>
-            A food licence is essential to be able to be a legal producer and
-            distributor of food. It is a requirement to pass hygiene and safety
-            regulations to provide clean food to the masses. Without an FSSAI
-            food licence, business operations may face violation as per the Food
-            Safety and Standards Act of 2006.
-          </p>
+                    <!-- 3. Why food licence is necessary? -->
+                    <h3>Why food licence is necessary?</h3>
+                    <p>
+                        A food licence is essential to be able to be a legal producer and
+                        distributor of food. It is a requirement to pass hygiene and safety
+                        regulations to provide clean food to the masses. Without an FSSAI
+                        food licence, business operations may face violation as per the Food
+                        Safety and Standards Act of 2006.
+                    </p>
 
-          <!-- 4. Why is a food licence used? -->
-          <h3>Why is a food licence used?</h3>
-          <p>
-            The licence helps to curb accusations of food adulteration and the
-            use of cheap food. Unsafe ingredients.
-          </p>
+                    <!-- 4. Why is a food licence used? -->
+                    <h3>Why is a food licence used?</h3>
+                    <p>
+                        The licence helps to curb accusations of food adulteration and the
+                        use of cheap food. Unsafe ingredients.
+                    </p>
 
-          <!-- 5. What is the use of a food licence? How 3g Food License Consultancy will help you? -->
-          <h3>
-            What is the use of a food licence? How 3g Food License Consultancy
-            will help you?
-          </h3>
-          <p>
-            Having an FSSAI licence assures the customers that the respective
-            food business is of high standards. For speed process, WhatsApp:
-            <a href="tel:+9059145190">9059145190</a> or email to
-            <a href="mailto:3gconsultancy01@gmail.com"
-              >3gconsultancy01@gmail.com</a
-            >.
-          </p>
+                    <!-- 5. What is the use of a food licence? How 3g Food License Consultancy will help you? -->
+                    <h3>
+                        What is the use of a food licence? How 3g Food License Consultancy
+                        will help you?
+                    </h3>
+                    <p>
+                        Having an FSSAI licence assures the customers that the respective
+                        food business is of high standards. For speed process, WhatsApp:
+                        <a href="tel:+9059145190">9059145190</a> or email to
+                        <a href="mailto:3gconsultancy01@gmail.com">3gconsultancy01@gmail.com</a>.
+                    </p>
 
-          <!-- 6. Who has the power to cancel the food licence? -->
-          <h3>Who has the power to cancel the food licence?</h3>
-          <p>Registering authority may cancel the licence/registration.</p>
+                    <!-- 6. Who has the power to cancel the food licence? -->
+                    <h3>Who has the power to cancel the food licence?</h3>
+                    <p>Registering authority may cancel the licence/registration.</p>
 
-          <!-- 7. Can I register for a food licence online? Yes? How 3G Hyderabad-based Food License Consultancy/FSSAI will help you? -->
-          <h3>
-            Can I register for a food licence online? Yes? How 3G
-            Hyderabad-based Food License Consultancy/FSSAI will help you?
-          </h3>
-          <p>
-            Yes, you can register your food licence online. If you are stuck at
-            any process, 3G consultant will assist you in the registration
-            process. For more information, call
-            <a href="tel:+9059145190">9059145190</a>.
-          </p>
+                    <!-- 7. Can I register for a food licence online? Yes? How 3G Hyderabad-based Food License Consultancy/FSSAI will help you? -->
+                    <h3>
+                        Can I register for a food licence online? Yes? How 3G
+                        Hyderabad-based Food License Consultancy/FSSAI will help you?
+                    </h3>
+                    <p>
+                        Yes, you can register your food licence online. If you are stuck at
+                        any process, 3G consultant will assist you in the registration
+                        process. For more information, call
+                        <a href="tel:+9059145190">9059145190</a>.
+                    </p>
 
-          <!-- 8. How can I check my licence registration? How 3G Hyderabad-based Food License Consultancy/FSSAI will help you? -->
-          <h3>
-            How can I check my licence registration? How 3G Hyderabad-based Food
-            License Consultancy/FSSAI will help you?
-          </h3>
-          <p>
-            1. Enter 4-digit FSSAI licence number<br />
-            2. Click on check validity and get basic information<br />
-            3. Login with your username and password<br />
-            4. Get the details about your FSSAI licence
-          </p>
+                    <!-- 8. How can I check my licence registration? How 3G Hyderabad-based Food License Consultancy/FSSAI will help you? -->
+                    <h3>
+                        How can I check my licence registration? How 3G Hyderabad-based Food
+                        License Consultancy/FSSAI will help you?
+                    </h3>
+                    <p>
+                        1. Enter 4-digit FSSAI licence number<br />
+                        2. Click on check validity and get basic information<br />
+                        3. Login with your username and password<br />
+                        4. Get the details about your FSSAI licence
+                    </p>
 
-          <!-- 9. Where can I apply for my FSSAI licence? -->
-          <h3>Where can I apply for my FSSAI licence?</h3>
-          <p>
-            FBOs can obtain FSSAI registration online by filling and submitting
-            the FSSAI registration form, i.e. Form A (application for
-            Registration) or Form B (application for State and Central License)
-            on the FoSCoS portal. The FBOs can also register offline by
-            submitting Form A or Form B to the Food and Safety Department. Get
-            effortless FSSAI registration assistance today! Contact us at the
-            provided number and our team will guide you through the process step
-            by step.
-          </p>
+                    <!-- 9. Where can I apply for my FSSAI licence? -->
+                    <h3>Where can I apply for my FSSAI licence?</h3>
+                    <p>
+                        FBOs can obtain FSSAI registration online by filling and submitting
+                        the FSSAI registration form, i.e. Form A (application for
+                        Registration) or Form B (application for State and Central License)
+                        on the FoSCoS portal. The FBOs can also register offline by
+                        submitting Form A or Form B to the Food and Safety Department. Get
+                        effortless FSSAI registration assistance today! Contact us at the
+                        provided number and our team will guide you through the process step
+                        by step.
+                    </p>
 
-          <!-- 10. What is the registration cost? -->
-          <h3>What is the registration cost?</h3>
-          <p>
-            The FSSAI state licence fees range from INR 2000/- to 5000/- a year.
-          </p>
+                    <!-- 10. What is the registration cost? -->
+                    <h3>What is the registration cost?</h3>
+                    <p>
+                        The FSSAI state licence fees range from INR 2000/- to 5000/- a year.
+                    </p>
 
-          <!-- 11. What are the documents required to apply? -->
-          <h3>What are the documents required to apply?</h3>
-          <p>
-            Photo ID and address proof issued by government authority of
-            proprietor/partner/directors/authorised signatory.
-          </p>
+                    <!-- 11. What are the documents required to apply? -->
+                    <h3>What are the documents required to apply?</h3>
+                    <p>
+                        Photo ID and address proof issued by government authority of
+                        proprietor/partner/directors/authorised signatory.
+                    </p>
 
-          <!-- 12. What is FSSAI? -->
-          <h3>What is FSSAI?</h3>
-          <p>
-            It is an independent organisation that reports to the Indian
-            government’s ministry of health & family welfare.
-          </p>
+                    <!-- 12. What is FSSAI? -->
+                    <h3>What is FSSAI?</h3>
+                    <p>
+                        It is an independent organisation that reports to the Indian
+                        government’s ministry of health & family welfare.
+                    </p>
 
-          <!-- 13. What are the types of food licence? -->
-          <h3>What are the types of food licence?</h3>
-          <ul style="margin-left: 55px">
-            <li>Central licence</li>
-            <li>State licence</li>
-            <li>Basic registration</li>
-          </ul>
-          <p>
-            Need help with FSSAI registration? Contact us today for a
-            stress-free experience.
-          </p>
+                    <!-- 13. What are the types of food licence? -->
+                    <h3>What are the types of food licence?</h3>
+                    <ul style="margin-left: 55px">
+                        <li>Central licence</li>
+                        <li>State licence</li>
+                        <li>Basic registration</li>
+                    </ul>
+                    <p>
+                        Need help with FSSAI registration? Contact us today for a
+                        stress-free experience.
+                    </p>
 
-          <!-- 14. Is food licence valid all over India? -->
-          <h3>Is food licence valid all over India?</h3>
-          <p>
-            FSSAI State licences are given to food business owners who operate
-            inside a single state. At the same time, the FSSAI Central License
-            is given to food business owners who want to operate in multiple
-            states, on a centralized system.
-          </p>
+                    <!-- 14. Is food licence valid all over India? -->
+                    <h3>Is food licence valid all over India?</h3>
+                    <p>
+                        FSSAI State licences are given to food business owners who operate
+                        inside a single state. At the same time, the FSSAI Central License
+                        is given to food business owners who want to operate in multiple
+                        states, on a centralized system.
+                    </p>
 
-          <!-- 15. When should I renew my food licence? -->
-          <h3>When should I renew my food licence?</h3>
-          <p>
-            Before 30 days of the current registration. For more information,
-            call <a href="tel:+9059145190">9059145190</a>.
-          </p>
+                    <!-- 15. When should I renew my food licence? -->
+                    <h3>When should I renew my food licence?</h3>
+                    <p>
+                        Before 30 days of the current registration. For more information,
+                        call <a href="tel:+9059145190">9059145190</a>.
+                    </p>
 
-          <!-- 16. What are the consequences of not following the rules and regulations? -->
-          <h3>
-            What are the consequences of not following the rules and
-            regulations?
-          </h3>
-          <p>You may face a heavy penalty.</p>
+                    <!-- 16. What are the consequences of not following the rules and regulations? -->
+                    <h3>
+                        What are the consequences of not following the rules and
+                        regulations?
+                    </h3>
+                    <p>You may face a heavy penalty.</p>
 
-          <!-- 17. Who can get a food licence? -->
-          <h3>Who can get a food licence?</h3>
-          <p>
-            Food business operators having a turnover of less than Rs. 12 lakh
-            per annum. It's easy to get it; it is acceptable to Zomato & Swiggy.
-            Registering for FSSAI doesn't have to be difficult. Contact us at
-            the provided number and let us make it easy for you.
-          </p>
+                    <!-- 17. Who can get a food licence? -->
+                    <h3>Who can get a food licence?</h3>
+                    <p>
+                        Food business operators having a turnover of less than Rs. 12 lakh
+                        per annum. It's easy to get it; it is acceptable to Zomato & Swiggy.
+                        Registering for FSSAI doesn't have to be difficult. Contact us at
+                        the provided number and let us make it easy for you.
+                    </p>
 
-          <!-- 18. What is the procedure for applying? -->
-          <h3>What is the procedure for applying?</h3>
-          <p>
-            1. Photo of food business operator<br />
-            2. Document for identity proof like ration card, voter ID card, PAN
-            card, driving licence, passport, Aadhar card, senior citizens card,
-            Department-issued ID<br />
-            3. Supporting documents (if any): NOC by municipality/panchayat,
-            health NOC.
-          </p>
+                    <!-- 18. What is the procedure for applying? -->
+                    <h3>What is the procedure for applying?</h3>
+                    <p>
+                        1. Photo of food business operator<br />
+                        2. Document for identity proof like ration card, voter ID card, PAN
+                        card, driving licence, passport, Aadhar card, senior citizens card,
+                        Department-issued ID<br />
+                        3. Supporting documents (if any): NOC by municipality/panchayat,
+                        health NOC.
+                    </p>
 
-          <!-- 19. What is the best food license consultancy for food licence (FSSAI licence state and central) registration? -->
-          <h3>
-            What is the best food license consultancy for food licence (FSSAI
-            licence) registration?
-          </h3>
-          <p>
-            3G Consultants is a top consultancy for food licence (FSSAI licence)
-            registration. Our team of experts has extensive knowledge and
-            experience in the field of food safety and regulatory compliance,
-            and we are dedicated to helping businesses obtain their FSSAI
-            licence quickly and efficiently. We offer personalized services
-            tailored to meet the specific needs of each client, ensuring a
-            hassle-free registration process. Contact us today to learn more
-            about how we can assist you with FSSAI licence registration for your
-            business.
-          </p>
+                    <!-- 19. What is the best food license consultancy for food licence (FSSAI licence state and central) registration? -->
+                    <h3>
+                        What is the best food license consultancy for food licence (FSSAI
+                        licence) registration?
+                    </h3>
+                    <p>
+                        3G Consultants is a top consultancy for food licence (FSSAI licence)
+                        registration. Our team of experts has extensive knowledge and
+                        experience in the field of food safety and regulatory compliance,
+                        and we are dedicated to helping businesses obtain their FSSAI
+                        licence quickly and efficiently. We offer personalized services
+                        tailored to meet the specific needs of each client, ensuring a
+                        hassle-free registration process. Contact us today to learn more
+                        about how we can assist you with FSSAI licence registration for your
+                        business.
+                    </p>
 
-          <!-- 20. How to contact a 3G Food/FSSAI consultant for food licence registration? -->
-          <h3>
-            How to contact a 3G Food/FSSAI consultant for food licence
-            registration?
-          </h3>
-          <p>
-            Online directories: Find in Google<br />
-            Social media: Follow our social media<br />
-            Direct contact: Call <a href="tel:+9059145190">9059145190</a> or
-            email to
-            <a href="mailto:3gconsultancy01@gmail.com"
-              >3gconsultancy01@gmail.com</a
-            >
-          </p>
+                    <!-- 20. How to contact a 3G Food/FSSAI consultant for food licence registration? -->
+                    <h3>
+                        How to contact a 3G Food/FSSAI consultant for food licence
+                        registration?
+                    </h3>
+                    <p>
+                        Online directories: Find in Google<br />
+                        Social media: Follow our social media<br />
+                        Direct contact: Call <a href="tel:+9059145190">9059145190</a> or
+                        email to
+                        <a href="mailto:3gconsultancy01@gmail.com">3gconsultancy01@gmail.com</a>
+                    </p>
 
-          <!-- 21. How 3G FSSAI consultants support food registration? -->
-          <h3>How 3G FSSAI consultants support food registration?</h3>
-          <p>
-            Understanding the legal requirements related to your business<br />
-            Assisting with filling out the application for the relevant license
-            or registration<br />
-            Providing guidance on compliance with regulations and standards<br />
-            Addressing any issues or concerns related to licensing or regulatory
-            compliance<br />
-            Liaising with government authorities on your behalf
-          </p>
+                    <!-- 21. How 3G FSSAI consultants support food registration? -->
+                    <h3>How 3G FSSAI consultants support food registration?</h3>
+                    <p>
+                        Understanding the legal requirements related to your business<br />
+                        Assisting with filling out the application for the relevant license
+                        or registration<br />
+                        Providing guidance on compliance with regulations and standards<br />
+                        Addressing any issues or concerns related to licensing or regulatory
+                        compliance<br />
+                        Liaising with government authorities on your behalf
+                    </p>
 
-          <!-- 22. What are the service charges at 3G consultant for food licence registration online? -->
-          <h3>
-            What are the service charges at 3G consultant for food licence
-            registration online?
-          </h3>
-          <p>
-            Our service charges for food licence (FSSAI licence) registration
-            online are competitive and affordable. We offer personalized
-            services tailored to meet the specific needs of each client. Contact
-            us to learn more about our pricing and how we can assist you with
-            your FSSAI licence registration. For detailed discussion, kindly
-            contact us at <a href="tel:+9059145190">9059145190</a>.
-          </p>
+                    <!-- 22. What are the service charges at 3G consultant for food licence registration online? -->
+                    <h3>
+                        What are the service charges at 3G consultant for food licence
+                        registration online?
+                    </h3>
+                    <p>
+                        Our service charges for food licence (FSSAI licence) registration
+                        online are competitive and affordable. We offer personalized
+                        services tailored to meet the specific needs of each client. Contact
+                        us to learn more about our pricing and how we can assist you with
+                        your FSSAI licence registration. For detailed discussion, kindly
+                        contact us at <a href="tel:+9059145190">9059145190</a>.
+                    </p>
 
-          <!-- 23. When to contact 3G Food License Consultant for food licence registration? -->
-          <h3>
-            When to contact 3G Food License Consultant for food licence
-            registration?
-          </h3>
-          <p>The timings are 10:00 am - 6:00 pm.</p>
-        </section>
-        <div class="reg_crf">
-          <img src="registration_crf/food.webp" alt="" />
-        </div>
-        <section class="labour_licienc_img">
-          <h3 style="text-align: center">Trade Licence Certificatie Format</h3>
-          <img
-            class="licence_image onClickLicienceImg"
-            src="crf_formate_document/food licence.webp"
-            alt="trade licience Certificate"
-          />
-        </section>
-      </div>
-      <!-- contact us form -->
-      <div class="contact_us_container">
-        <div class="map_container">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60903.9769545628!2d78.45314546022763!3d17.435835861741857!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb9a242a4f0069%3A0x33881ee5b3c8b92!2s3G%20HR%20Services%20(%20Best%20Job%20Consultant%20in%20Hyderabad)!5e0!3m2!1sen!2sin!4v1685524564081!5m2!1sen!2sin"
-            width="600"
-            height="450"
-            style="border: 0"
-            allowfullscreen=""
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
-          ></iframe>
-        </div>
-        <div class="contact_us_form">
-          <h2 class="contact_us_form heading">Get in touch</h2>
-          <p class="contact_us_para">We are here for you. How we can help?</p>
-          <form action="submit-form.php" class="contact_us_form" method="POST">
-            <div class="contact_us_name">
-              <label for="name" class="contact_us_label">Name:</label>
-              <input
-                type="text"
-                id="name2"
-                name="name2"
-                title="name2"
-                placeholder="Your Name"
-                required
-              /><br /><br />
+                    <!-- 23. When to contact 3G Food License Consultant for food licence registration? -->
+                    <h3>
+                        When to contact 3G Food License Consultant for food licence
+                        registration?
+                    </h3>
+                    <p>The timings are 10:00 am - 6:00 pm.</p>
+                </section>
+                <div class="reg_crf">
+                    <img src="registration_crf/food.webp" alt="" />
+                </div>
+                <section class="labour_licienc_img">
+                    <h3 style="text-align: center">Trade Licence Certificatie Format</h3>
+                    <img class="licence_image onClickLicienceImg" src="crf_formate_document/food licence.webp"
+                        alt="trade licience Certificate" />
+                </section>
             </div>
-            <div class="contact_us_email">
-              <label for="email" class="contact_us_label">Email:</label>
-              <input
-                type="email"
-                id="email2"
-                name="email2"
-                placeholder="Your"
-                required
-              /><br /><br />
+            <!-- contact us form -->
+            <div class="contact_us_container">
+                <div class="map_container">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60903.9769545628!2d78.45314546022763!3d17.435835861741857!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb9a242a4f0069%3A0x33881ee5b3c8b92!2s3G%20HR%20Services%20(%20Best%20Job%20Consultant%20in%20Hyderabad)!5e0!3m2!1sen!2sin!4v1685524564081!5m2!1sen!2sin"
+                        width="600" height="450" style="border: 0" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="contact_us_form">
+                    <h2 class="contact_us_form heading">Get in touch</h2>
+                    <p class="contact_us_para">We are here for you. How we can help?</p>
+                    <form action="submit-form.php" class="contact_us_form" method="POST">
+                        <div class="contact_us_name">
+                            <label for="name" class="contact_us_label">Name:</label>
+                            <input type="text" id="name2" name="name2" title="name2" placeholder="Your Name"
+                                required /><br /><br />
+                        </div>
+                        <div class="contact_us_email">
+                            <label for="email" class="contact_us_label">Email:</label>
+                            <input type="email" id="email2" name="email2" placeholder="Your" required /><br /><br />
+                        </div>
+                        <div class="contact_us_phoneNumber">
+                            <label for="phone" class="contact_us_label">Phone Number:</label>
+                            <input type="tel" id="phone2" name="phone2" placeholder="Your phone number"
+                                required /><br /><br />
+                        </div>
+                        <div class="contact_us_message">
+                            <label for="message" class="contact_us_label">Message:</label>
+                            <textarea id="message" name="message" rows="4" cols="30"
+                                placeholder="Example:- We need labour law services" required></textarea><br /><br />
+                        </div>
+                        <input type="submit" value="Submit" />
+                    </form>
+                </div>
             </div>
-            <div class="contact_us_phoneNumber">
-              <label for="phone" class="contact_us_label">Phone Number:</label>
-              <input
-                type="tel"
-                id="phone2"
-                name="phone2"
-                placeholder="Your phone number"
-                required
-              /><br /><br />
+            <section class="footer">
+                <div class="logo">
+                    <h1>3G CONSULTANT</h1>
+                </div>
+                <div class="footer_navigation">
+                    <ol>
+                        <li class="footer_nav_design">Services</li>
+                        <li><a href="index.html">labour law consultants</a></li>
+                        <li><a href="#">food license consultants</a></li>
+                        <li>
+                            <a href="online-trade-licence.html">online trade licence</a>
+                        </li>
+                        <li>
+                            <a href="epf-registration-online.html">epf registration online</a>
+                        </li>
+                    </ol>
+
+                    <ol>
+                        <li>
+                            <a href="shop-act-registration.html">Firm registration online</a>
+                        </li>
+                        <li>
+                            <a href="esic-registration-online.html">esic registration online</a>
+                        </li>
+                        <li>
+                            <a href="msme-udyam-registration.html">msme udyam registration</a>
+                        </li>
+                        <li>
+                            <a href="shop-act-registration.html">shop act registration</a>
+                        </li>
+                        <li>
+                            <a href="contract-labour-registration.html">contract labour registration</a>
+                        </li>
+                        <li>
+                            <a href="professional-tax.html">Professional tax registration</a>
+                        </li>
+                    </ol>
+                    <div class="email_submition">
+                        <h4>SIGN UP TO OUR NEWSLETTERS</h4>
+                        <div class="ES">
+                            <input type="text" name="" id="" placeholder="Enter your email" />
+                            <input type="submit" value="SUBSCRIBE" />
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="whatsappChatIcon" onclick="changeLink()">
+                <p>hey do you need any help</p>
+            </section>
+            <section class="copyright_policy">
+                <p>
+                    <a href="copyright.html">COPYRIGHT 3G CONSULTANT 2023. ALL RIGHTS RESERVED.</a>
+                </p>
+                <p><a href="copyright.html">PRIVACY POLICY</a></p>
+            </section>
+            <script>
+                window.onload = function () {
+                    // Set a timeout to wait 5 seconds
+                    setTimeout(function () {
+                        // Get the element by its ID
+                        const elementToShow = document.getElementById("whatsappChatIcon");
+
+                        // Add a class to trigger the CSS animation or transition
+                        elementToShow.classList.add("show");
+                    }, 10000); // 5 seconds in milliseconds
+                };
+
+                function changeLink() {
+                    // Change the URL to the new link
+                    window.location.href = "https://wa.me/9059145190";
+                }
+            </script>
+        </div>
+        <div class="popUpContainer" id="popUpContainer">
+            <div class="popUp">
+                <div id="thank_you">
+                    <p>Thanks for filling up the form!</p>
+                    <p id="info">Our team will reach you out very soon</p>
+                    <button type="submit" id="closeThePopUp">Close</button>
+                </div>
             </div>
-            <div class="contact_us_message">
-              <label for="message" class="contact_us_label">Message:</label>
-              <textarea
-                id="message"
-                name="message"
-                rows="4"
-                cols="30"
-                placeholder="Example:- We need labour law services"
-                required
-              ></textarea
-              ><br /><br />
-            </div>
-            <input type="submit" value="Submit" />
-          </form>
         </div>
-      </div>
-      <section class="footer">
-        <div class="logo">
-          <h1>3G CONSULTANT</h1>
-        </div>
-        <div class="footer_navigation">
-          <ol>
-            <li class="footer_nav_design">Services</li>
-            <li><a href="index.html">labour law consultants</a></li>
-            <li><a href="#">food license consultants</a></li>
-            <li>
-              <a href="online-trade-licence.html">online trade licence</a>
-            </li>
-            <li>
-              <a href="epf-registration-online.html">epf registration online</a>
-            </li>
-          </ol>
+    </body>
 
-          <ol>
-            <li>
-              <a href="shop-act-registration.html">Firm registration online</a>
-            </li>
-            <li>
-              <a href="esic-registration-online.html"
-                >esic registration online</a
-              >
-            </li>
-            <li>
-              <a href="msme-udyam-registration.html">msme udyam registration</a>
-            </li>
-            <li>
-              <a href="shop-act-registration.html">shop act registration</a>
-            </li>
-            <li>
-              <a href="contract-labour-registration.html"
-                >contract labour registration</a
-              >
-            </li>
-            <li>
-              <a href="professional-tax.html">Professional tax registration</a>
-            </li>
-          </ol>
-          <div class="email_submition">
-            <h4>SIGN UP TO OUR NEWSLETTERS</h4>
-            <div class="ES">
-              <input type="text" name="" id="" placeholder="Enter your email" />
-              <input type="submit" value="SUBSCRIBE" />
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section id="whatsappChatIcon" onclick="changeLink()">
-        <p>hey do you need any help</p>
-      </section>
-      <section class="copyright_policy">
-        <p>
-          <a href="copyright.html"
-            >COPYRIGHT 3G CONSULTANT 2023. ALL RIGHTS RESERVED.</a
-          >
-        </p>
-        <p><a href="copyright.html">PRIVACY POLICY</a></p>
-      </section>
-      <script>
-        window.onload = function () {
-          // Set a timeout to wait 5 seconds
-          setTimeout(function () {
-            // Get the element by its ID
-            const elementToShow = document.getElementById("whatsappChatIcon");
-
-            // Add a class to trigger the CSS animation or transition
-            elementToShow.classList.add("show");
-          }, 10000); // 5 seconds in milliseconds
-        };
-
-        function changeLink() {
-          // Change the URL to the new link
-          window.location.href = "https://wa.me/9059145190";
-        }
-      </script>
-    </div>
-    <div class="popUpContainer" id="popUpContainer">
-      <div class="popUp">
-        <div id="thank_you">
-          <p>Thanks for filling up the form!</p>
-          <p id="info">Our team will reach you out very soon</p>
-          <button type="submit" id="closeThePopUp">Close</button>
-        </div>
-      </div>
-    </div>
-  </body>
-
-  <script>
-    var animation = bodymovin.loadAnimation({
-      container: document.getElementById("whatsappChatIcon"),
-      loop: true,
-      autoplay: true,
-      path: "icons-pack/icons8-whatsapp.json",
-    });
-  </script>
-
-  <script>
-    // defineing the google script url
-    const scriptURL =
-      "https://script.google.com/macros/s/AKfycbz7ZitWKghJK_mDY_7ZiYhhqf6UzGrEEVbCEtL_fFN31TlmQyUEbVcCYysLnvy7V8uV/exec";
-    // getting the form element
-    const form = document.querySelector("#contact-form");
-    const submitButton = document.querySelector("#submit");
-    const phoneRegex = /^\d{10}$/; // regular expression for 10-digit phone number
-
-    form.addEventListener("submit", (e) => {
-      submitButton.disabled = true;
-      submitButton.setAttribute("value", "Loading..."); // add this line to change the button value
-      e.preventDefault();
-      let requestBody = new FormData(form);
-
-      // check if phone number is valid before submitting form
-      let phoneNumber = requestBody.get("phone");
-      if (!phoneRegex.test(phoneNumber)) {
-        submitButton.disabled = false;
-        submitButton.setAttribute("value", "Submit"); // add this line to change the button value back
-        return;
-      }
-
-      fetch(scriptURL, { method: "POST", body: requestBody })
-        .then((response) => {
-          setTimeout(() => {
-            // add this line to delay the alert by 500ms
-            alert("Success!", response);
-          }, 100);
-          submitButton.disabled = false;
-          submitButton.setAttribute("value", "Submit"); // add this line to change the button value back
-          form.reset(); // Add this line to reset the form
-        })
-        .catch((error) => {
-          setTimeout(() => {
-            // add this line to delay the alert by 500ms
-            alert("Error!", error.message);
-          }, 100);
-          submitButton.disabled = false;
-          submitButton.setAttribute("value", "Submit"); // add this line to change the button value back
-          form.reset();
+    <script>
+        var animation = bodymovin.loadAnimation({
+            container: document.getElementById("whatsappChatIcon"),
+            loop: true,
+            autoplay: true,
+            path: "icons-pack/icons8-whatsapp.json",
         });
-    });
+    </script>
 
-    function showInput(select) {
-      let otherService = document.getElementById("otherServiceContainer");
-      let otherServiceInput = document.getElementById("ot-service");
+    <script>
+        // defineing the google script url
+        const scriptURL =
+            "https://script.google.com/macros/s/AKfycbz7ZitWKghJK_mDY_7ZiYhhqf6UzGrEEVbCEtL_fFN31TlmQyUEbVcCYysLnvy7V8uV/exec";
+        // getting the form element
+        const form = document.querySelector("#contact-form");
+        const submitButton = document.querySelector("#submit");
+        const phoneRegex = /^\d{10}$/; // regular expression for 10-digit phone number
 
-      if (select.value === "other") {
-        otherService.style.display = "flex";
-        otherService.style.flexDirection = "column";
-        otherServiceInput.required = true; // corrected "required" attribute
-      } else {
-        otherService.style.display = "none";
-        otherServiceInput.required = false; // corrected "required" attribute
-      }
-    }
-  </script>
-  <script src="popup.js"></script>
+        form.addEventListener("submit", (e) => {
+            submitButton.disabled = true;
+            submitButton.setAttribute("value", "Loading..."); // add this line to change the button value
+            e.preventDefault();
+            let requestBody = new FormData(form);
+
+            // check if phone number is valid before submitting form
+            let phoneNumber = requestBody.get("phone");
+            if (!phoneRegex.test(phoneNumber)) {
+                submitButton.disabled = false;
+                submitButton.setAttribute("value", "Submit"); // add this line to change the button value back
+                return;
+            }
+
+            fetch(scriptURL, { method: "POST", body: requestBody })
+                .then((response) => {
+                    setTimeout(() => {
+                        // add this line to delay the alert by 500ms
+                        alert("Success!", response);
+                    }, 100);
+                    submitButton.disabled = false;
+                    submitButton.setAttribute("value", "Submit"); // add this line to change the button value back
+                    form.reset(); // Add this line to reset the form
+                })
+                .catch((error) => {
+                    setTimeout(() => {
+                        // add this line to delay the alert by 500ms
+                        alert("Error!", error.message);
+                    }, 100);
+                    submitButton.disabled = false;
+                    submitButton.setAttribute("value", "Submit"); // add this line to change the button value back
+                    form.reset();
+                });
+        });
+
+        function showInput(select) {
+            let otherService = document.getElementById("otherServiceContainer");
+            let otherServiceInput = document.getElementById("ot-service");
+
+            if (select.value === "other") {
+                otherService.style.display = "flex";
+                otherService.style.flexDirection = "column";
+                otherServiceInput.required = true; // corrected "required" attribute
+            } else {
+                otherService.style.display = "none";
+                otherServiceInput.required = false; // corrected "required" attribute
+            }
+        }
+    </script>
+    <script src="popup.js"></script>
+
 </html>
