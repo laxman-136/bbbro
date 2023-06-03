@@ -395,7 +395,7 @@ body ::-webkit-scrollbar {
 
     /* Iframe */
     #wrapper iframe {
-        min-height: 5px;
+        min-height: 558px;
     }
 
 }
